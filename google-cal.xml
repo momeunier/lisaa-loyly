@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gCal='http://schemas.google.com/gCal/2005' xmlns:gd='http://schemas.google.com/g/2005'>
+	<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full</id>
+	<updated>2011-11-03T14:25:44.000Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+	<title type='text'>kartanonkaari22@gmail.com</title>
+	<subtitle type='text'>kartanonkaari22@gmail.com</subtitle>
+	<link rel='alternate' type='text/html' href='http://www.google.com/calendar/embed?src=kartanonkaari22@gmail.com'/>
+	<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full'/>
+	<link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/batch'/>
+	<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full?max-results=25'/>
+	<link rel='next' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full?start-index=26&amp;max-results=25'/>
+	<author>
+		<name>kartanonkaari22 hki</name>
+		<email>kartanonkaari22@gmail.com</email>
+	</author>
+	<generator version='1.0' uri='http://www.google.com/calendar'>Google Calendar</generator>
+	<openSearch:totalResults>34</openSearch:totalResults>
+	<openSearch:startIndex>1</openSearch:startIndex>
+	<openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+	<gCal:timezone value='Europe/Helsinki'/>
+	<gCal:timesCleaned value='0'/>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/nr8dhq2fj0huq52582em0ltpb4</id>
+		<published>2011-11-03T14:25:44.000Z</published>
+		<updated>2011-11-03T14:25:44.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>test</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=bnI4ZGhxMmZqMGh1cTUyNTgyZW0wbHRwYjQga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/nr8dhq2fj0huq52582em0ltpb4'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/nr8dhq2fj0huq52582em0ltpb4/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-10-24T14:00:00.000+03:00' startTime='2011-10-24T13:00:00.000+03:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='nr8dhq2fj0huq52582em0ltpb4@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/e9dub5ka846tfjb8evai5us85k</id>
+		<published>2011-11-03T11:58:01.000Z</published>
+		<updated>2011-11-03T11:58:01.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>35</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZTlkdWI1a2E4NDZ0ZmpiOGV2YWk1dXM4NWsga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/e9dub5ka846tfjb8evai5us85k'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/e9dub5ka846tfjb8evai5us85k/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-06T22:00:00.000+02:00' startTime='2011-11-06T21:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='e9dub5ka846tfjb8evai5us85k@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/f0l1hsomhebpjkmujoakajrh1k</id>
+		<published>2011-11-03T11:57:58.000Z</published>
+		<updated>2011-11-03T11:57:58.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>34</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZjBsMWhzb21oZWJwamttdWpvYWthanJoMWsga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/f0l1hsomhebpjkmujoakajrh1k'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/f0l1hsomhebpjkmujoakajrh1k/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-06T21:00:00.000+02:00' startTime='2011-11-06T20:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='f0l1hsomhebpjkmujoakajrh1k@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/guc3sl98fg8rcbsl20vp6gm6fo</id>
+		<published>2011-11-03T11:57:53.000Z</published>
+		<updated>2011-11-03T11:57:53.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>33</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=Z3VjM3NsOThmZzhyY2JzbDIwdnA2Z202Zm8ga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/guc3sl98fg8rcbsl20vp6gm6fo'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/guc3sl98fg8rcbsl20vp6gm6fo/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-06T20:00:00.000+02:00' startTime='2011-11-06T19:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='guc3sl98fg8rcbsl20vp6gm6fo@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/16bfergpogfefmk3br8gsv1ah8</id>
+		<published>2011-11-03T11:57:51.000Z</published>
+		<updated>2011-11-03T11:57:51.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>32</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=MTZiZmVyZ3BvZ2ZlZm1rM2JyOGdzdjFhaDgga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/16bfergpogfefmk3br8gsv1ah8'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/16bfergpogfefmk3br8gsv1ah8/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-06T19:00:00.000+02:00' startTime='2011-11-06T18:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='16bfergpogfefmk3br8gsv1ah8@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/b1fqart5vguo3pdkrn5tiog27g</id>
+		<published>2011-11-03T11:57:39.000Z</published>
+		<updated>2011-11-03T11:57:39.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>31</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=YjFmcWFydDV2Z3VvM3Bka3JuNXRpb2cyN2cga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/b1fqart5vguo3pdkrn5tiog27g'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/b1fqart5vguo3pdkrn5tiog27g/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-06T18:00:00.000+02:00' startTime='2011-11-06T17:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='b1fqart5vguo3pdkrn5tiog27g@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/j5pc79gajv9ofmng2fee1lfc7o</id>
+		<published>2011-11-03T11:51:35.000Z</published>
+		<updated>2011-11-03T11:57:17.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Women</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ajVwYzc5Z2FqdjlvZm1uZzJmZWUxbGZjN28ga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/j5pc79gajv9ofmng2fee1lfc7o'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/j5pc79gajv9ofmng2fee1lfc7o/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-10-31T21:00:00.000+02:00' startTime='2011-10-31T19:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='5'/>
+		<gCal:uid value='j5pc79gajv9ofmng2fee1lfc7o@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/6cc995u9dupd73t4u4c4egmt50</id>
+		<published>2011-11-03T11:51:26.000Z</published>
+		<updated>2011-11-03T11:57:15.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>Men</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=NmNjOTk1dTlkdXBkNzN0NHU0YzRlZ210NTAga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/6cc995u9dupd73t4u4c4egmt50'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/6cc995u9dupd73t4u4c4egmt50/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-10-31T19:00:00.000+02:00' startTime='2011-10-31T17:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='1'/>
+		<gCal:uid value='6cc995u9dupd73t4u4c4egmt50@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/90feb3vhmsje2m5831ktp37sv4</id>
+		<published>2011-11-03T11:56:52.000Z</published>
+		<updated>2011-11-03T11:56:52.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>30</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=OTBmZWIzdmhtc2plMm01ODMxa3RwMzdzdjQga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/90feb3vhmsje2m5831ktp37sv4'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/90feb3vhmsje2m5831ktp37sv4/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-05T22:00:00.000+02:00' startTime='2011-11-05T21:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='90feb3vhmsje2m5831ktp37sv4@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/lnti061jhqeg9m6aqg37v1mbrg</id>
+		<published>2011-11-03T11:56:45.000Z</published>
+		<updated>2011-11-03T11:56:45.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>29</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=bG50aTA2MWpocWVnOW02YXFnMzd2MW1icmcga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/lnti061jhqeg9m6aqg37v1mbrg'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/lnti061jhqeg9m6aqg37v1mbrg/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-05T21:00:00.000+02:00' startTime='2011-11-05T20:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='lnti061jhqeg9m6aqg37v1mbrg@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/7fh0vbt4172jum6hbboqgotsi0</id>
+		<published>2011-11-03T11:56:31.000Z</published>
+		<updated>2011-11-03T11:56:31.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>28</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=N2ZoMHZidDQxNzJqdW02aGJib3Fnb3RzaTAga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/7fh0vbt4172jum6hbboqgotsi0'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/7fh0vbt4172jum6hbboqgotsi0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-05T20:00:00.000+02:00' startTime='2011-11-05T19:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='7fh0vbt4172jum6hbboqgotsi0@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/2nabg5vks677sm978eu69uda1s</id>
+		<published>2011-11-03T11:56:22.000Z</published>
+		<updated>2011-11-03T11:56:22.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>27</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=Mm5hYmc1dmtzNjc3c205NzhldTY5dWRhMXMga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/2nabg5vks677sm978eu69uda1s'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/2nabg5vks677sm978eu69uda1s/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-05T19:00:00.000+02:00' startTime='2011-11-05T18:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='2nabg5vks677sm978eu69uda1s@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/rnsn79h4cap5lf1uf5u28f4248</id>
+		<published>2011-11-03T11:56:17.000Z</published>
+		<updated>2011-11-03T11:56:17.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>26</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=cm5zbjc5aDRjYXA1bGYxdWY1dTI4ZjQyNDgga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/rnsn79h4cap5lf1uf5u28f4248'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/rnsn79h4cap5lf1uf5u28f4248/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-05T18:00:00.000+02:00' startTime='2011-11-05T17:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='rnsn79h4cap5lf1uf5u28f4248@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/esmhq2ac8el2a387bc4dmc6uik</id>
+		<published>2011-11-03T11:55:29.000Z</published>
+		<updated>2011-11-03T11:55:29.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>25</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZXNtaHEyYWM4ZWwyYTM4N2JjNGRtYzZ1aWsga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/esmhq2ac8el2a387bc4dmc6uik'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/esmhq2ac8el2a387bc4dmc6uik/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-04T22:00:00.000+02:00' startTime='2011-11-04T21:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='esmhq2ac8el2a387bc4dmc6uik@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/f2lq8hrdrtvr03s6shpnll3eeo</id>
+		<published>2011-11-03T11:55:26.000Z</published>
+		<updated>2011-11-03T11:55:26.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>24</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZjJscThocmRydHZyMDNzNnNocG5sbDNlZW8ga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/f2lq8hrdrtvr03s6shpnll3eeo'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/f2lq8hrdrtvr03s6shpnll3eeo/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-04T21:00:00.000+02:00' startTime='2011-11-04T20:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='f2lq8hrdrtvr03s6shpnll3eeo@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ib4816i861jau429b0atcuropc</id>
+		<published>2011-11-03T11:55:24.000Z</published>
+		<updated>2011-11-03T11:55:24.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>23</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=aWI0ODE2aTg2MWphdTQyOWIwYXRjdXJvcGMga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ib4816i861jau429b0atcuropc'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ib4816i861jau429b0atcuropc/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-04T20:00:00.000+02:00' startTime='2011-11-04T19:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='ib4816i861jau429b0atcuropc@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/1gmdtsj8jkkf7bdanh3goegjfc</id>
+		<published>2011-11-03T11:55:21.000Z</published>
+		<updated>2011-11-03T11:55:21.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>22</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=MWdtZHRzajhqa2tmN2JkYW5oM2dvZWdqZmMga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/1gmdtsj8jkkf7bdanh3goegjfc'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/1gmdtsj8jkkf7bdanh3goegjfc/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-04T19:00:00.000+02:00' startTime='2011-11-04T18:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='1gmdtsj8jkkf7bdanh3goegjfc@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ln1d6vemsoso72gesu24ahc1sc</id>
+		<published>2011-11-03T11:55:17.000Z</published>
+		<updated>2011-11-03T11:55:17.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>21</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=bG4xZDZ2ZW1zb3NvNzJnZXN1MjRhaGMxc2Mga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ln1d6vemsoso72gesu24ahc1sc'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ln1d6vemsoso72gesu24ahc1sc/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-04T18:00:00.000+02:00' startTime='2011-11-04T17:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='ln1d6vemsoso72gesu24ahc1sc@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/no0b3m1hd1uttesd7q6i8ba314</id>
+		<published>2011-11-03T11:55:12.000Z</published>
+		<updated>2011-11-03T11:55:12.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>20</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=bm8wYjNtMWhkMXV0dGVzZDdxNmk4YmEzMTQga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/no0b3m1hd1uttesd7q6i8ba314'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/no0b3m1hd1uttesd7q6i8ba314/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-03T22:00:00.000+02:00' startTime='2011-11-03T21:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='no0b3m1hd1uttesd7q6i8ba314@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/0g4gdaoe5k599bg78o301d670k</id>
+		<published>2011-11-03T11:55:10.000Z</published>
+		<updated>2011-11-03T11:55:10.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>19</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=MGc0Z2Rhb2U1azU5OWJnNzhvMzAxZDY3MGsga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/0g4gdaoe5k599bg78o301d670k'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/0g4gdaoe5k599bg78o301d670k/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-03T21:00:00.000+02:00' startTime='2011-11-03T20:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='0g4gdaoe5k599bg78o301d670k@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/q5uhrk9f2l2nc0coh4oiu725d0</id>
+		<published>2011-11-03T11:55:02.000Z</published>
+		<updated>2011-11-03T11:55:02.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>18</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=cTV1aHJrOWYybDJuYzBjb2g0b2l1NzI1ZDAga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/q5uhrk9f2l2nc0coh4oiu725d0'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/q5uhrk9f2l2nc0coh4oiu725d0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-03T20:00:00.000+02:00' startTime='2011-11-03T19:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='q5uhrk9f2l2nc0coh4oiu725d0@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ct16m7hr0clmtlbugaussps5hs</id>
+		<published>2011-11-03T11:54:59.000Z</published>
+		<updated>2011-11-03T11:54:59.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>17</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=Y3QxNm03aHIwY2xtdGxidWdhdXNzcHM1aHMga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ct16m7hr0clmtlbugaussps5hs'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ct16m7hr0clmtlbugaussps5hs/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-03T19:00:00.000+02:00' startTime='2011-11-03T18:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='ct16m7hr0clmtlbugaussps5hs@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/erge4ukd4uncufrng6bslq42og</id>
+		<published>2011-11-03T11:54:57.000Z</published>
+		<updated>2011-11-03T11:54:57.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>16</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZXJnZTR1a2Q0dW5jdWZybmc2YnNscTQyb2cga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/erge4ukd4uncufrng6bslq42og'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/erge4ukd4uncufrng6bslq42og/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-03T18:00:00.000+02:00' startTime='2011-11-03T17:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='erge4ukd4uncufrng6bslq42og@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/dfd0e6m4hlsu7f5tbnbvdkshn0</id>
+		<published>2011-11-03T11:48:21.000Z</published>
+		<updated>2011-11-03T11:53:54.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>15</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZGZkMGU2bTRobHN1N2Y1dGJuYnZka3NobjAga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/dfd0e6m4hlsu7f5tbnbvdkshn0'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/dfd0e6m4hlsu7f5tbnbvdkshn0/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-02T22:00:00.000+02:00' startTime='2011-11-02T21:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='dfd0e6m4hlsu7f5tbnbvdkshn0@google.com'/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ek772p260i9k17thqnjvv1d8e4</id>
+		<published>2011-11-03T11:53:46.000Z</published>
+		<updated>2011-11-03T11:53:46.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/g/2005#event'/>
+		<title type='text'>14</title>
+		<content type='text'/>
+		<link rel='alternate' type='text/html' href='http://www.google.com/calendar/event?eid=ZWs3NzJwMjYwaTlrMTd0aHFuanZ2MWQ4ZTQga2FydGFub25rYWFyaTIyQG0' title='alternate'/>
+		<link rel='self' type='application/atom+xml' href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ek772p260i9k17thqnjvv1d8e4'/>
+		<author>
+			<name>kartanonkaari22@gmail.com</name>
+			<email>kartanonkaari22@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink href='http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/public/full/ek772p260i9k17thqnjvv1d8e4/comments'/>
+		</gd:comments>
+		<gd:eventStatus value='http://schemas.google.com/g/2005#event.confirmed'/>
+		<gd:where valueString=''/>
+		<gd:who email='kartanonkaari22@gmail.com' rel='http://schemas.google.com/g/2005#event.organizer' valueString='kartanonkaari22@gmail.com'/>
+		<gd:when endTime='2011-11-02T21:00:00.000+02:00' startTime='2011-11-02T20:00:00.000+02:00'/>
+		<gd:transparency value='http://schemas.google.com/g/2005#event.opaque'/>
+		<gCal:anyoneCanAddSelf value='false'/>
+		<gCal:guestsCanInviteOthers value='true'/>
+		<gCal:guestsCanModify value='false'/>
+		<gCal:guestsCanSeeGuests value='true'/>
+		<gCal:sequence value='0'/>
+		<gCal:uid value='ek772p260i9k17thqnjvv1d8e4@google.com'/>
+	</entry>
+</feed>
