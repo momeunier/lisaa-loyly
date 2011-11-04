@@ -11,14 +11,20 @@
 <?php 
 	$confirmed = 'http://schemas.google.com/g/2005#event.confirmed';
 
-	$three_months_in_seconds = 60 * 60 * 24 * 28 * 3;
-	$three_months_ago = date("Y-m-d\Th:i:sP", time() - $three_months_in_seconds);
-	$three_months_from_today = date("Y-m-d\Th:i:sP", time() + $three_months_in_seconds);
+	if (date("w") == 0) { 
+     $adjuster = 6; 
+    } 
+    else { 
+     $adjuster = date("w") - 1; 
+    } 
+    $startDate = date("Y-m-d", strtotime("-" .$adjuster. " days")); 
+    $endDate = strtotime ( '+7 days' , strtotime ( $startDate ) ) ;
+    $endDate = date ( 'Y-m-j' , $endDate );
 
 	$feed = "http://www.google.com/calendar/feeds/kartanonkaari22%40gmail.com/" . 
 		"public/full?orderby=starttime&singleevents=true&" . 
-		"start-min=" . $three_months_ago . "&" .
-		"start-max=" . $three_months_from_today;
+		"start-min=" . $startDate . "&" .
+		"start-max=" . $endDate;
 
 	$s = simplexml_load_file($feed); 
 
