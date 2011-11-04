@@ -35,17 +35,30 @@
     require_once 'config.php';
     $gcal = Zend_Gdata_Calendar::AUTH_SERVICE_NAME;
     $client = Zend_Gdata_ClientLogin::getHttpClient($user, $pass, $gcal);
+    $client2 = Zend_Gdata_ClientLogin::getHttpClient($user, $pass, $gcal);
     $gcal = new Zend_Gdata_Calendar($client);
+    if (date("w") == 0) { 
+     $adjuster = 6; 
+    } 
+    else { 
+     $adjuster = date("w") - 1; 
+    } 
+    $startDate = date("Y-m-d", strtotime("-" .$adjuster. " days")); 
+    $endDate = strtotime ( '+7 days' , strtotime ( $startDate ) ) ;
+    $endDate = date ( 'Y-m-j' , $endDate );
     
     $query = $gcal->newEventQuery();
     $query->setUser('default');
     $query->setVisibility('private');
     $query->setProjection('basic');
     $query->setOrderby('starttime');
+    $query->setSortOrder('ascending');
+    $query->setMaxResults(50);
+    echo $startDate . "<br/>" . $endDate . "<br/>" ;
+    $query->setStartMin($startDate);
     if(isset($_GET['q'])) {
       $query->setQuery($_GET['q']);      
     }
-    
     try {
       $feed = $gcal->getCalendarEventFeed($query);
     } catch (Zend_Gdata_App_Exception $e) {
@@ -59,12 +72,30 @@
 
     <?php        
     foreach ($feed as $event) {
-      echo "<li>\n";
-      echo "<h2>" . stripslashes($event->title) . "</h2>\n";
- #     echo stripslashes($event->summary) . " <br/>\n";
       $id = substr($event->id, strrpos($event->id, '/')+1);
-      echo "<a href=\"edit.php?id=$id\">edit</a> | ";
-      echo "<a href=\"delete.php?id=$id\">delete</a> <br/>\n";
+#      echo $id ; 
+      try {
+      $gcal_detail = new Zend_Gdata_Calendar($client2);
+      } catch (Zend_Gdata_App_Exception $e) {
+       echo "Error: " . $e->getResponse();
+      }
+      $event_detail = $gcal_detail->getCalendarEventEntry('http://www.google.com/calendar/feeds/default/private/full/' . $id);
+      $when = $event_detail->getWhen();
+      $startTime = strtotime($when[0]->getStartTime());
+      $sdate_dd = date('d', $startTime);
+      $sdate_mm = date('m', $startTime);
+      $sdate_yy = date('Y', $startTime);
+      $sdate_hh = date('H', $startTime);
+      $sdate_ii = date('i', $startTime);
+      $endTime = strtotime($when[0]->getEndTime());
+      $edate_hh = date('H', $endTime);
+      $edate_ii = date('i', $endTime);      
+      echo "<li>\n";
+      echo "<strong>" . stripslashes($event->title) . "</strong>\n";
+ #     echo stripslashes($event->summary) . " <br/>\n";
+      echo " - " . $sdate_dd . "." . $sdate_mm . "." . $sdate_yy . " from " . $sdate_hh . "." . $sdate_ii . " to " . $edate_hh . "." . $edate_ii; 
+     # echo "<a href=\"edit.php?id=$id\">edit</a> | ";
+     # echo "<a href=\"delete.php?id=$id\">delete</a> <br/>\n";
       echo "</li>\n";
     }
     echo "</ul>";
@@ -78,6 +109,90 @@
       <input type="submit" name="submit" value="Search"/>
     </form>
 <br/>
+<table>
+<tr><td>
+<td>
+<table>
+<tr><td>&nbsp;</td></tr>
+<tr><td>17-18</td></tr>
+<tr><td>18-19</td></tr>
+<tr><td>19-20</td></tr>
+<tr><td>20-21</td></tr>
+<tr><td>21-22</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td>Maanantai</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>Miehet</td></tr>
+<tr><td>Miehet</td></tr>
+<tr><td>Naiset</td></tr>
+<tr><td>Naiset</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td>Tiistai</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td>Keskiviikko</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td>Torstai</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td>Perjantai</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td>Lauantai</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td>Suununtai</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+<tr><td>16-17</td></tr>
+</table>
+</td>
+</tr>
+</table>
 <iframe src="https://www.google.com/calendar/embed?src=kartanonkaari22%40gmail.com&ctz=Europe/Helsinki" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
   </body>

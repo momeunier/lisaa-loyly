@@ -1,6 +1,6 @@
 <?php
 
-$user = "your_sauna_calendar@gmail.com";
-$pass = "your_password";
+$user = "kartanonkaari22@gmail.com";
+$pass = "Dominos17";
 
 ?>
