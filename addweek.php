@@ -80,6 +80,7 @@
 	  array("nothing", "Paaso B5", "Söderström S29", "Itkonen C15", "Peippo C16"),
 	  array("nothing", "nothing", "nothing", "nothing", "nothing")
 	  );
+	  
 	 if (date("w") == 0) { 
      $adjuster = 6; 
      } 
