@@ -79,8 +79,8 @@
 	  array("Meunier B10", "Lehtinen A3", "Nysten B8", "Eira B9", "Nyroos B6"),
 	  array("nothing", "Paaso B5", "Söderström S29", "Itkonen C15", "Peippo C16"),
 	  array("nothing", "nothing", "nothing", "nothing", "nothing")
-	  )
-	  if (date("w") == 0) { 
+	  );
+	 if (date("w") == 0) { 
      $adjuster = 6; 
      } 
      else { 
@@ -88,7 +88,7 @@
      } 
      $startDate = date('Y-m-d', strtotime('-' .$adjuster. ' days')); 
      $endDate = strtotime ( '+7 days' , strtotime ( $startDate ) ) ;
-     $endDate = date ( 'Y-m-d' , $endDate );
+     $endDate = date ( 'Y-m-d' , $endDate ); 
       try {
       	for ($i=0; $i<7; $i++) {
       		for ($j=0; $j<4;$j++) {
@@ -96,7 +96,7 @@
 		        $event->title = $gcal->newTitle($arr[$i][$j]);        
 		        $when = $gcal->newWhen();
 		        $when->startTime = date($startDate, strtotime('+' .$i. ' days'));
-		        $when->endTime = date(date($startDate, strtotime('+' .$i. ' days'));, strtotime('+1 hours'));
+		        $when->endTime = date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'));
 		        $event->when = array($when);        
 		        $gcal->insertEvent($event);
 			}
