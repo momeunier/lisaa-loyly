@@ -17,7 +17,7 @@
     else { 
      $adjuster = date("w") - 1; 
     } 
-    $startDate = date('Y-m-d', strtotime('-' .$adjuster. ' days')); 
+	$startDate = date('Y-m-d', strtotime('-' .$adjuster. ' days')); 
     $endDate = strtotime ( '+7 days' , strtotime ( $startDate ) ) ;
     $endDate = date ( 'Y-m-d' , $endDate );
 
