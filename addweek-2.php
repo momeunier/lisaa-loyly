@@ -82,9 +82,6 @@
 			print(date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'))."<br/>");
 		        $event->when = array($when);        
 		        #$gcal->insertEvent($event);
-		        $when->endTime = date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'));
-		        $event->when = array($when);        
-		        $gcal->insertEvent($event);
 			}
 		}   
       } catch (Zend_Gdata_App_Exception $e) {
