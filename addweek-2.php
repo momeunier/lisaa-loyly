@@ -26,7 +26,23 @@
   </head>
   <body>
     <h1>Add Event</h1>
+<<<<<<< HEAD
     <?php
+=======
+    <?php if (!isset($_POST['submit'])) { ?>
+    <form method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
+      Start date:
+      <input name="sdate_dd" type="text" size="2" />
+      <input name="sdate_mm" type="text" size="2" />
+      <input name="sdate_yy" type="text" size="4" /><p/>
+      Start time (hh:mm): <br/>
+      <input name="sdate_hh" type="text" size="2" /> 
+      <input name="sdate_ii" type="text" size="2" /><br/>
+      <input name="submit" type="submit" value="Save" />      
+    </form>
+    <?php
+    } else {
+>>>>>>> b6524e980dec9a9e58bce87bbae6c72244597a93
       // load classes
       require_once 'Zend/Loader.php';
       Zend_Loader::loadClass('Zend_Gdata');
@@ -40,15 +56,43 @@
       $client = Zend_Gdata_ClientLogin::getHttpClient($user, $pass, $gcal);
       $gcal = new Zend_Gdata_Calendar($client);
       
+<<<<<<< HEAD
+=======
+      // validate input
+      if (empty($_POST['title'])) {
+        die('ERROR: Missing title');
+      } 
+      
+      if (!checkdate($_POST['sdate_mm'], $_POST['sdate_dd'], $_POST['sdate_yy'])) {
+        die('ERROR: Invalid start date/time');        
+      }
+      
+      if (!checkdate($_POST['edate_mm'], $_POST['edate_dd'], $_POST['edate_yy'])) {
+        die('ERROR: Invalid end date/time');        
+      }
+      
+      $title = htmlentities($_POST['title']);
+      $start = date(DATE_ATOM, mktime($_POST['sdate_hh'], $_POST['sdate_ii'], 0, $_POST['sdate_mm'], $_POST['sdate_dd'], $_POST['sdate_yy']));
+      $end = date(DATE_ATOM, mktime($_POST['edate_hh'], $_POST['edate_ii'], 0, $_POST['edate_mm'], $_POST['edate_dd'], $_POST['edate_yy']));
+
+>>>>>>> b6524e980dec9a9e58bce87bbae6c72244597a93
       // construct event object
       // save to server      
 	  $arr=array(
 	  array("nothing", "miehet", "miehet", "naiset", "naiset"),
+<<<<<<< HEAD
 	  array("nothing", "Peltola A4", "Eira B9", "Myllymä C13", "Linna E21"),
 	  array("nothing", "Peltola E25", "Paukkonen E24", "Nilakin B7", "Toivonen D20"),
 	  array("Turpeinen A2", "nothing", "Mettinen C14", "Saarainen A1", "nothing"),
 	  array("Meunier B10", "Lehtinen A3", "Nysten B8", "Eira B9", "Nyroos B6"),
 	  array("nothing", "Paaso B5", "Söströ29", "Itkonen C15", "Peippo C16"),
+=======
+	  array("nothing", "Peltola A4", "Eira B9", "Myllymäki C13", "Linna E21"),
+	  array("nothing", "Peltola E25", "Paukkonen E24", "Nilakin B7", "Toivonen D20"),
+	  array("Turpeinen A2", "nothing", "Mettinen C14", "Saarainen A1", "nothing"),
+	  array("Meunier B10", "Lehtinen A3", "Nysten B8", "Eira B9", "Nyroos B6"),
+	  array("nothing", "Paaso B5", "Söderström S29", "Itkonen C15", "Peippo C16"),
+>>>>>>> b6524e980dec9a9e58bce87bbae6c72244597a93
 	  array("nothing", "nothing", "nothing", "nothing", "nothing")
 	  );
 	  
@@ -59,7 +103,10 @@
      $adjuster = date("w") - 1; 
      } 
      $startDate = date('Y-m-d', strtotime('-' .$adjuster. ' days')); 
+<<<<<<< HEAD
      $startDate = strtotime('-' .$adjuster. ' days')); 
+=======
+>>>>>>> b6524e980dec9a9e58bce87bbae6c72244597a93
      $endDate = strtotime ( '+7 days' , strtotime ( $startDate ) ) ;
      $endDate = date ( 'Y-m-d' , $endDate ); 
       try {
@@ -69,20 +116,33 @@
 		        $event->title = $gcal->newTitle($arr[$i][$j]);        
 		        $when = $gcal->newWhen();
 		        $when->startTime = date($startDate, strtotime('+' .$i. ' days'));
+<<<<<<< HEAD
 			print(date($startDate, strtotime('+' .$i. ' days'))."<br/>");
 			echo "\$i=".$i." and \$j=".$j."<br/>";
 		        $when->endTime = date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'));
 			print(date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'))."<br/>");
 		        $event->when = array($when);        
 		        #$gcal->insertEvent($event);
+=======
+		        $when->endTime = date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'));
+		        $event->when = array($when);        
+		        $gcal->insertEvent($event);
+>>>>>>> b6524e980dec9a9e58bce87bbae6c72244597a93
 			}
 		}   
       } catch (Zend_Gdata_App_Exception $e) {
         echo "Error: " . $e->getResponse();
       }
       echo 'Event successfully added!';      
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> b6524e980dec9a9e58bce87bbae6c72244597a93
     ?>
   </body>
 </html>     
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6524e980dec9a9e58bce87bbae6c72244597a93
