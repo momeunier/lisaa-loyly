@@ -65,6 +65,7 @@
      }
 	 $isoWeekStartDate = date('Y-m-d', strtotime(date('o-\\WW', $time)));
      echo $isoWeekStartDate;
+	 print(strtotime("first day of this week"));
      $startDate = date('Y-m-d', strtotime('-' .$adjuster. ' days')); 
      $startDate = strtotime('-' .$adjuster. ' days'); 
      $endDate = strtotime ( '+7 days' , strtotime ( $startDate ) ) ;
@@ -76,10 +77,10 @@
 		        $event->title = $gcal->newTitle($arr[$i][$j]);        
 		        $when = $gcal->newWhen();
 		        $when->startTime = date($startDate, strtotime('+' .$i. ' days'));
-			print(date($startDate, strtotime('+' .$i. ' days'))."<br/>");
-			echo "\$i=".$i." and \$j=".$j."<br/>";
+			    print(date($startDate, strtotime('+' .$i. ' days'))."<br/>");
+				echo "\$i=".$i." and \$j=".$j."<br/>";
 		        $when->endTime = date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'));
-			print(date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'))."<br/>");
+				print(date(date($startDate, strtotime('+' .$i. ' days')), strtotime('+1 hours'))."<br/>");
 		        $event->when = array($when);        
 		        #$gcal->insertEvent($event);
 			}
