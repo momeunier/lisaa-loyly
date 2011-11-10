@@ -64,8 +64,8 @@
      $adjuster = date("w") - 1; 
      }
 	 $isoWeekStartDate = date('Y-m-d', strtotime(date('o-\\WW', $time)));
-     echo $isoWeekStartDate;
-	 print(strtotime("first day of this week"));
+     echo $isoWeekStartDate."<br/>";
+	 print(strtotime("first day of this week")."<br/>");
      $startDate = date('Y-m-d', strtotime('-' .$adjuster. ' days')); 
      $startDate = strtotime('-' .$adjuster. ' days'); 
      $endDate = strtotime ( '+7 days' , strtotime ( $startDate ) ) ;
